@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QC</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="quiz">
+        <h2>Qual é a capital do Brasil?</h2>
+        <div>
+          <button
+            (click)="selectOption('A')"
+            [ngClass]="
+              selectedOption === 'A'
+                ? selectedOption === correctAnswer
+                  ? 'correto'
+                  : 'incorreto'
+                : ''
+            "
+          >
+            A) São Paulo
+          </button>
+          <button
+            (click)="selectOption('B')"
+            [ngClass]="
+              selectedOption === 'B'
+                ? selectedOption === correctAnswer
+                  ? 'correto'
+                  : 'incorreto'
+                : ''
+            "
+          >
+            B) Rio de Janeiro
+          </button>
+          <button
+            (click)="selectOption('C')"
+            [ngClass]="
+              selectedOption === 'C'
+                ? selectedOption === correctAnswer
+                  ? 'correto'
+                  : 'incorreto'
+                : ''
+            "
+          >
+            C) Brasília
+          </button>
+          <button
+            (click)="selectOption('D')"
+            [ngClass]="
+              selectedOption === 'D'
+                ? selectedOption === correctAnswer
+                  ? 'correto'
+                  : 'incorreto'
+                : ''
+            "
+          >
+            D) Salvador
+          </button>
+          <button
+            (click)="selectOption('E')"
+            [ngClass]="
+              selectedOption === 'E'
+                ? selectedOption === correctAnswer
+                  ? 'correto'
+                  : 'incorreto'
+                : ''
+            "
+          >
+            E) Porto Alegre
+          </button>
+          <div
+            *ngIf="selectedOption !== null"
+            [ngClass]="
+              selectedOption === correctAnswer
+                ? 'mensagem-correto'
+                : 'mensagem-incorreto'
+            "
+          >
+            {{
+              selectedOption === correctAnswer ? "Você acertou!" : "Você errou!"
+            }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
