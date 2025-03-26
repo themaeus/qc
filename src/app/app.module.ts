@@ -9,6 +9,7 @@ import { ServiceComponent } from './componentes/service/service.component';
 import { RodapeComponent } from './componentes/rodape/rodape.component';
 import { SobreComponent } from './componentes/sobre/sobre.component';
 import { ContatoComponent } from './componentes/contato/contato.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,7 @@ import { ContatoComponent } from './componentes/contato/contato.component';
     SobreComponent,
     ContatoComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
 })

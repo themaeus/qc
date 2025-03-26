@@ -6,81 +6,100 @@
     <title>qc</title>
   </head>
   <body>
-    <div class="container">
-      <div class="quiz">
-        <h2>Qual é a capital do Brasil?</h2>
-        <div>
-          <button
-            (click)="selectOption('A')"
-            [ngClass]="
-              selectedOption === 'A'
-                ? selectedOption === correctAnswer
-                  ? 'correto'
-                  : 'incorreto'
-                : ''
-            "
-          >
-            A) São Paulo
-          </button>
-          <button
-            (click)="selectOption('B')"
-            [ngClass]="
-              selectedOption === 'B'
-                ? selectedOption === correctAnswer
-                  ? 'correto'
-                  : 'incorreto'
-                : ''
-            "
-          >
-            B) Rio de Janeiro
-          </button>
-          <button
-            (click)="selectOption('C')"
-            [ngClass]="
-              selectedOption === 'C'
-                ? selectedOption === correctAnswer
-                  ? 'correto'
-                  : 'incorreto'
-                : ''
-            "
-          >
-            C) Brasília
-          </button>
-          <button
-            (click)="selectOption('D')"
-            [ngClass]="
-              selectedOption === 'D'
-                ? selectedOption === correctAnswer
-                  ? 'correto'
-                  : 'incorreto'
-                : ''
-            "
-          >
-            D) Salvador
-          </button>
-          <button
-            (click)="selectOption('E')"
-            [ngClass]="
-              selectedOption === 'E'
-                ? selectedOption === correctAnswer
-                  ? 'correto'
-                  : 'incorreto'
-                : ''
-            "
-          >
-            E) Porto Alegre
-          </button>
-          <div
-            *ngIf="selectedOption !== null"
-            [ngClass]="
-              selectedOption === correctAnswer
-                ? 'mensagem-correto'
-                : 'mensagem-incorreto'
-            "
-          >
-            {{
-              selectedOption === correctAnswer ? "Você acertou!" : "Você errou!"
-            }}
+    <div class="card">
+      <div class="alinhamento-conteudo-card">
+        <div class="quiz-div">
+          <h6>ID da Questão: {{ questoes[indiceAtual]?.id_Questao }}</h6>
+          <div *ngIf="questoes.length > 0">
+            <h1>{{ questoes[indiceAtual]?.txt_Questao }}</h1>
+            <p
+              class="botao"
+              (click)="selecionarAlternativa('A')"
+              [ngClass]="{
+                'botao-correto':
+                  alternativaSelecionada === 'A' &&
+                  alternativaSelecionada === resposta,
+                'botao-incorreto':
+                  alternativaSelecionada === 'A' &&
+                  alternativaSelecionada !== resposta
+              }"
+            >
+              A) {{ questoes[indiceAtual]?.alternativa_A }}
+            </p>
+            <p
+              class="botao"
+              (click)="selecionarAlternativa('B')"
+              [ngClass]="{
+                'botao-correto':
+                  alternativaSelecionada === 'B' &&
+                  alternativaSelecionada === resposta,
+                'botao-incorreto':
+                  alternativaSelecionada === 'B' &&
+                  alternativaSelecionada !== resposta
+              }"
+            >
+              B) {{ questoes[indiceAtual]?.alternativa_B }}
+            </p>
+            <p
+              class="botao"
+              (click)="selecionarAlternativa('C')"
+              [ngClass]="{
+                'botao-correto':
+                  alternativaSelecionada === 'C' &&
+                  alternativaSelecionada === resposta,
+                'botao-incorreto':
+                  alternativaSelecionada === 'C' &&
+                  alternativaSelecionada !== resposta
+              }"
+            >
+              C) {{ questoes[indiceAtual]?.alternativa_C }}
+            </p>
+            <p
+              class="botao"
+              (click)="selecionarAlternativa('D')"
+              [ngClass]="{
+                'botao-correto':
+                  alternativaSelecionada === 'D' &&
+                  alternativaSelecionada === resposta,
+                'botao-incorreto':
+                  alternativaSelecionada === 'D' &&
+                  alternativaSelecionada !== resposta
+              }"
+            >
+              D) {{ questoes[indiceAtual]?.alternativa_D }}
+            </p>
+            <p
+              class="botao"
+              (click)="selecionarAlternativa('E')"
+              [ngClass]="{
+                'botao-correto':
+                  alternativaSelecionada === 'E' &&
+                  alternativaSelecionada === resposta,
+                'botao-incorreto':
+                  alternativaSelecionada === 'E' &&
+                  alternativaSelecionada !== resposta
+              }"
+            >
+              E) {{ questoes[indiceAtual]?.alternativa_E }}
+            </p>
+            <div
+              *ngIf="alternativaSelecionada !== null"
+              [ngClass]="
+                alternativaSelecionada === resposta
+                  ? 'mensagem-correto'
+                  : 'mensagem-incorreto'
+              "
+            >
+              {{
+                alternativaSelecionada === resposta
+                  ? "Você acertou!"
+                  : "Você errou!"
+              }}
+            </div>
+            <p>Pontuação: {{ pontuacaoInicial }}/{{ questoes.length }}</p>
+            <div>
+              <button (click)="proximaQuestao()">Próxima Questão</button>
+            </div>
           </div>
         </div>
       </div>

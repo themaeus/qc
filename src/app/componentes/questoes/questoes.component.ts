@@ -1,3 +1,4 @@
+import { ServiceComponent } from './../service/service.component';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,14 +7,45 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./questoes.component.css'],
 })
 export class QuestoesComponent implements OnInit {
-  selectedOption: string | null = null;
-  correctAnswer = 'C';
+  questoes: any[] = [];
+  indiceAtual = 0;
+  alternativaSelecionada: string | null = null;
+  resposta: string | null = null;
+  pontuacaoInicial: number = 0;
+  pontuacaoMarcada: boolean = false;
 
-  selectOption(option: string) {
-    this.selectedOption = option;
+  selecionarAlternativa(option: string) {
+    this.alternativaSelecionada = option;
+    if (!this.pontuacaoMarcada) {
+      this.marcaPonto();
+      this.pontuacaoMarcada = true;
+    }
   }
 
-  constructor() {}
+  proximaQuestao() {
+    if (this.indiceAtual < this.questoes.length - 1) {
+      this.indiceAtual++;
+    } else {
+      this.indiceAtual = 0;
+      this.pontuacaoInicial = 0;
+    }
+    this.alternativaSelecionada = null;
+    this.resposta = this.questoes[this.indiceAtual]?.resposta;
+    this.pontuacaoMarcada = false;
+  }
 
-  ngOnInit(): void {}
+  marcaPonto() {
+    if (this.alternativaSelecionada === this.resposta) {
+      this.pontuacaoInicial++;
+    }
+  }
+
+  constructor(private serviceComponent: ServiceComponent) {}
+
+  ngOnInit(): void {
+    this.serviceComponent.getQuestoes().subscribe((data) => {
+      this.questoes = data;
+      this.resposta = this.questoes[this.indiceAtual]?.resposta;
+    });
+  }
 }

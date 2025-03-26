@@ -1,34 +1,34 @@
 .header {
-  background-color: black; /* Fundo com um pouco de transparência */
-  color: white; /* Cor do texto */
-  padding: 1rem; /* Espaçamento interno */
-  display: flex; /* Exibe o conteúdo em linha */
-  justify-content: space-between; /* Espaça os itens do início ao fim do cabeçalho */
-  align-items: center; /* Centraliza os itens verticalmente */
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header h1 {
-  margin: 0; /* Remove a margem padrão */
-  font-size: 1.5rem; /* Define o tamanho da fonte */
+  margin: 0;
+  font-size: 1.5rem;
 }
 
 .header nav ul {
-  list-style: none; /* Remove os marcadores da lista */
-  margin: 0; /* Remove a margem padrão */
-  padding: 0.5rem; /* Remove o espaçamento interno */
-  display: flex; /* Exibe os itens em linha */
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem;
+  display: flex;
 }
 
 .header nav ul li {
-  margin-left: 1rem; /* Adiciona espaço entre os itens */
+  margin-left: 1rem;
 }
 
 .header nav ul li a {
-  color: white; /* Define a cor do texto */
-  text-decoration: none; /* Remove a sublinhado */
-  font-weight: bold; /* Deixa o texto em negrito */
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .header nav ul li a:hover {
-  text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+  text-decoration: underline;
 }

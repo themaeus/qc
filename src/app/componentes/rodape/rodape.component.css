@@ -1,6 +1,6 @@
 .footer {
-  background-color: black; /* Fundo com um pouco de transparência */
-  color: white; /* Cor do texto */
-  padding: 0.5rem; /* Espaçamento interno */
-  text-align: center; /* Centraliza o texto */
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
 }

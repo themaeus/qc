@@ -1,0 +1,155 @@
+{
+  "questao": [
+    {
+      "id_Questao": 1,
+      "txt_Questao": "Todas as frases a seguir mostram dois termos sublinhados que podem ser empregados na frase. Assinale a opção em que o primeiro termo é o mais adequado.",
+      "alternativa_A": "Marta não quis que existisse / ocorresse qualquer desentendimento com o noivo.",
+      "alternativa_B": "O posto de líder, que me deram, foi uma oferta / oferenda generosa.",
+      "alternativa_C": "O ministro bolou / imaginou toda essa estratégia política para a reunião de cúpula.",
+      "alternativa_D": "Senti a necessidade de, na reunião, sustentar-me / permanecer calada.",
+      "alternativa_E": "Teria ele misturado / confundido os dois processos?",
+      "resposta": "C"
+    },
+    {
+      "id_Questao": 2,
+      "txt_Questao": "Na produção de textos, devemos ter cuidado com o emprego do gerúndio. Assinale a opção que indica a frase em que ele está bem empregado.",
+      "alternativa_A": "Fumando, entrou na sala.",
+      "alternativa_B": "Arrastando os pés, sentou-se.",
+      "alternativa_C": "Levantou-se, dirigindo-se à saída.",
+      "alternativa_D": "Ficou quieto, reclamando após meia hora.",
+      "alternativa_E": "Entrou no teatro, sentando-se na primeira fila.",
+      "resposta": "C"
+    },
+    {
+      "id_Questao": 3,
+      "txt_Questao": "Analise o cartaz a seguir. Assinale a opção que se mostra adequada aos termos e às imagens do cartaz acima.",
+      "alternativa_A": "A data mostrada indica a motivação do cartaz.",
+      "alternativa_B": "As formas de imperativo indicam ordens ao leitor.",
+      "alternativa_C": "A mensagem, pela posição do globo, se dirige exclusivamente ao Brasil.",
+      "alternativa_D": "A gota de água caindo mostra a primeira consequência de abrir-se a torneira.",
+      "alternativa_E": "O homem sobre a torneira a está abrindo para que a água mostre sua serventia.",
+      "resposta": "D"
+    },
+    {
+      "id_Questao": 4,
+      "txt_Questao": "As frases a seguir mostram a presença de vírgulas. Assinale aquela em que a justificativa para essa presença se mostra adequada.",
+      "alternativa_A": "Tiradentes, nosso herói, deu nome a uma cidade. / separar elemento anteposto.",
+      "alternativa_B": "Ministro, temos reunião marcada. / presença de aposto.",
+      "alternativa_C": "A juventude tem vantagens, claro! / separar elementos externos inseridos na frase.",
+      "alternativa_D": "Rio de Janeiro, 1º de dezembro de 2024. / separar o vocativo.",
+      "alternativa_E": "Ele é flamenguista e eu, vascaíno. / isolar termos explicativos.",
+      "resposta": "C"
+    },
+    {
+      "id_Questao": 5,
+      "txt_Questao": "Um dos problemas mais graves da escrita é a presença de ambiguidades. Assinale a opção que mostra a frase que não apresenta esse tipo de problema.",
+      "alternativa_A": "A professora disse que expulsou o aluno errado.",
+      "alternativa_B": "Conheço um jogador do futebol inglês.",
+      "alternativa_C": "O atleta enjoado participou do jogo.",
+      "alternativa_D": "Deixou desarrumada a sala.",
+      "alternativa_E": "Comprou o carro rápido.",
+      "resposta": "D"
+    },
+    {
+      "id_Questao": 6,
+      "txt_Questao": "As opções a seguir apresentam cinco formas diferentes de redigir o mesmo período. Assinale a opção em que a forma indicada corresponde ao período de melhor redação, considerando correção, clareza, concisão e elegância.",
+      "alternativa_A": "Sem a companhia dos tolos, ficaria sempre muito desajeitado um homem de espírito.",
+      "alternativa_B": "Um homem de espírito ficaria sempre muito desajeitado sem a companhia dos tolos.",
+      "alternativa_C": "Sem a companhia dos tolos um homem de espírito ficaria sempre muito desajeitado.",
+      "alternativa_D": "Um homem de espírito, sem a companhia dos tolos, ficaria muito desajeitado sempre.",
+      "alternativa_E": "Ficaria sempre muito desajeitado, um homem de espírito, sem a companhia dos tolos.",
+      "resposta": "D"
+    },
+    {
+      "id_Questao": 7,
+      "txt_Questao": "Assinale a opção que apresenta a frase que mostra uma oração concessiva.",
+      "alternativa_A": "A fantasia não tem limites, ainda que a arte os tenha.",
+      "alternativa_B": "Não devemos nunca nos acostumar com a vida, pois isso seria a morte.",
+      "alternativa_C": "Uma forma de expressão estabelecida é também uma forma de opressão.",
+      "alternativa_D": "É muito mais fácil perdoar um inimigo depois que acertamos as contas com ele.",
+      "alternativa_E": "Quanto mais tempo discutimos, tanto mais longe nos achamos do fim da discussão.",
+      "resposta": "A"
+    },
+    {
+      "id_Questao": 8,
+      "txt_Questao": "Assinale a opção que indica a frase em que houve a troca indevida entre as expressões ao pé, a pé, de pé e em pé.",
+      "alternativa_A": "Minha casa está ao pé da serra.",
+      "alternativa_B": "Nada ficou em pé após o terremoto.",
+      "alternativa_C": "Os funcionários puseram-se de pé com a presença do chefe.",
+      "alternativa_D": "Preferiu caminhar a pé em vez de pegar um táxi.",
+      "alternativa_E": "Ajoelhou-se a pé da imagem da santa.",
+      "resposta": "E"
+    },
+    {
+      "id_Questao": 9,
+      "txt_Questao": "Os pronomes de tratamento mostram diferentes formas e direcionamentos. Assinale a opção em que o tratamento indicado mostra corretamente a quem ele se dirige.",
+      "alternativa_A": "Vossa Santidade / santos.",
+      "alternativa_B": "Vossa Reverência / ministros.",
+      "alternativa_C": "Vossa Alteza / autoridades em geral.",
+      "alternativa_D": "Vossa Senhoria / pessoas íntimas.",
+      "alternativa_E": "Vossa Excelência / altas autoridades.",
+      "resposta": "E"
+    },
+    {
+      "id_Questao": 10,
+      "txt_Questao": "Assinale a opção que apresenta a frase que se insere entre os textos de tipo argumentativo.",
+      "alternativa_A": "Após a vitória, afie sua faca!",
+      "alternativa_B": "Amigo, oculta a tua vida e propaga teu espírito.",
+      "alternativa_C": "Goste de quem o aconselhe e não de quem o elogie.",
+      "alternativa_D": "Não se deve imitar somente um, ainda que seja o mais sábio.",
+      "alternativa_E": "O que busco, antes de mais nada, é a grandeza: o que é grande sempre é belo.",
+      "resposta": "E"
+    },
+
+    {
+      "id_Questao": 21,
+      "txt_Questao": "As Diretrizes para Distribuições de Sistemas Livres (GNU FSDG) estabelecem requisitos para que uma distribuição de software seja considerada livre. Assinale a opção que descreve corretamente uma das obrigações fundamentais dessas diretrizes.",
+      "alternativa_A": "Incluir qualquer software proprietário que seja amplamente utilizado, desde que possua relevância prática para os usuários.",
+      "alternativa_B": "Garantir que todo software distribuído seja compatível com licenças permissivas, como as licenças BSD.",
+      "alternativa_C": "Evitar a inclusão de softwares que recomendem, sugiram ou facilitem a instalação de programas não livres.",
+      "alternativa_D": "Permitir que os usuários modifiquem o sistema apenas para uso pessoal, sem redistribuição.",
+      "alternativa_E": "Assegurar que apenas softwares que exigem assinatura digital do autor original sejam aceitos na distribuição.",
+      "resposta": "C"
+    },
+    {
+      "id_Questao": 22,
+      "txt_Questao": "No sistema operacional Linux, a estrutura de diretórios segue o padrão do Filesystem Hierarchy Standard (FHS), que organiza os arquivos e diretórios de forma hierárquica. Assinale a opção que indica corretamente a finalidade do diretório /var.",
+      "alternativa_A": "Armazenar os arquivos de configuração estática do sistema e serviços, como o arquivo fstab.",
+      "alternativa_B": "Conter os arquivos essenciais do sistema necessários para o boot, como o kernel e os inicializadores.",
+      "alternativa_C": "Armazenar arquivos de dados variáveis, como logs do sistema e arquivos temporários de serviços.",
+      "alternativa_D": "Servir como local para bibliotecas compartilhadas usadas por binários em /usr e /bin.",
+      "alternativa_E": "Conter os arquivos e dados pessoais dos usuários, organizados por nome de usuário.",
+      "resposta": "C"
+    },
+    {
+      "id_Questao": 23,
+      "txt_Questao": "No sistema Linux, as permissões de arquivos são controladas por bits associados ao proprietário, grupo e outros usuários. Considere que um arquivo possui as seguintes permissões: -rwxr-xr—. Assinale a opção que descreve corretamente os níveis de acesso atribuídos a diferentes categorias de usuários para este arquivo.",
+      "alternativa_A": "O proprietário pode executar e modificar o arquivo, enquanto o grupo tem permissão apenas para ler.",
+      "alternativa_B": "O grupo tem permissão para executar o arquivo, mas não pode modificá-lo ou lê-lo.",
+      "alternativa_C": "Outros usuários têm permissão de leitura, mas não podem executar ou modificar o arquivo.",
+      "alternativa_D": "O proprietário, grupo e outros usuários podem executar o arquivo, mas apenas o proprietário pode modificá-lo.",
+      "alternativa_E": "Todos os usuários têm permissão total de leitura, escrita e execução para este arquivo.",
+      "resposta": "C"
+    },
+    {
+      "id_Questao": 24,
+      "txt_Questao": "No contexto das redes de computadores, considere as funções dos dispositivos de interconexão a seguir: hubs, repetidores, bridges e comutadores (switches). Assinale a opção que descreve corretamente o papel de um switch em comparação aos demais dispositivos.",
+      "alternativa_A": "Um switch opera na camada física (camada 1) e retransmite sinais elétricos para todos os dispositivos conectados.",
+      "alternativa_B": "Um switch segmenta a rede em domínios de broadcast, restringindo o tráfego de pacotes.",
+      "alternativa_C": "Um switch opera na camada de enlace (camada 2), encaminhando quadros para destinos específicos com base em endereços MAC.",
+      "alternativa_D": "Um switch replica pacotes para todos os dispositivos da rede, independentemente do destino, como faz um hub.",
+      "alternativa_E": "Um switch só pode interconectar dois segmentos de rede, como faz uma bridge, mas com menor eficiência.",
+      "resposta": "C"
+    },
+    {
+      "id_Questao": 25,
+      "txt_Questao": "De acordo com o Marco Civil da Internet (Lei nº 12.965/2014), assinale a alternativa que indica o princípio fundamental que orienta a neutralidade da rede.",
+      "alternativa_A": "Garantir que os provedores de conexão priorizem serviços de maior demanda para melhorar a experiência do usuário.",
+      "alternativa_B": "Assegurar que os provedores de conexão tratem todos os pacotes de dados da mesma forma, sem discriminação por conteúdo, origem ou destino.",
+      "alternativa_C": "Permitir que os provedores bloqueiem ou restrinjam conteúdos considerados prejudiciais ou ilegais, sem necessidade de ordem judicial.",
+      "alternativa_D": "Priorizar o tráfego de dados relacionado a serviços essenciais, como saúde e segurança pública, em detrimento de outros.",
+      "alternativa_E": "Autorizar os provedores a ajustar velocidades de conexão com base nos planos contratados pelos usuários, mesmo que isso comprometa a neutralidade da rede.",
+      "resposta": "B"
+    }
+  ]
+}
